@@ -1,0 +1,73 @@
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+.nameContainer input{
+  margin-bottom: 5px;
+  text-align: center;
+}
+.phoneAndEmail {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.formcontainer {
+  background-color: rgba(0, 0, 0, 0.267);
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+.dobAndGender {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(90, 90, 90, 0.329);
+  height: 80px;
+  padding: 20px 0px 50px 0px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.formcontainer {
+  width: 60%;
+}
+.form {
+  position: relative;
+}
+.form img {
+  position: relative;
+  transform: translate(250px, -15px);
+}
+.btnContainer {
+  text-align: right;
+  margin: 5px;
+  padding: 5px;
+}
+.btnContainer button {
+  width: 150px;
+}
+.adminpageport {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  background-color: rgba(0, 26, 65, 0.397);
+  padding: 10px;
+  align-items: center;
+  border-radius: 10px;
+}
+.adminpageport p{
+  margin-top: 10px;
+  color: white;
+}
+.adminpageport a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.adminpageport a:hover{
+  transition: all 0.3s ;
+  border-bottom: 4px solid rgb(0, 0, 0);
+  color: aqua;
+}

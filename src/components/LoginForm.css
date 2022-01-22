@@ -1,0 +1,41 @@
+
+
+
+.loginForm{
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    border-radius: 40px;
+    padding: 30px;
+}
+form{
+    background-color:rgba(0, 255, 0, 0.438);
+}
+.loginForm input{
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 10px;
+    float: left;
+    margin: 15px;
+}
+
+.loginInputs{
+    background-color:rgba(126, 126, 126, 0.466);
+    position: relative;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.profilepicture{
+    width: 17%;
+    float: right;
+    margin: 0px 55px 25px 0px;
+}
+.btnContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
